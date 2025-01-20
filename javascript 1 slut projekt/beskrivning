@@ -1,0 +1,50 @@
+# TMDB Simplified
+
+## Beskrivning
+Detta projekt är ett skolprojekt som har som syfte att utveckla en förenklad version av IMDB med hjälp av TMDB:s API. Projektet syftar till att hjälpa studenter att lära sig och tillämpa grundläggande webbprogrammeringstekniker, inklusive JavaScript, API-anrop, och HTML/CSS-strukturering. Det inkluderar även användning av Bootstrap för att förbättra design och responsivitet.
+
+## Funktionalitet
+1. **Visa topp 10 högst rankade filmer:**
+   - Användare kan klicka på en knapp för att visa en lista med de tio högst rankade filmerna just nu.
+2. **Visa topp 10 mest populära filmer:**
+   - Användare kan klicka på en knapp för att visa en lista med de tio mest populära filmerna just nu.
+3. **Söka efter filmer och personer:**
+   - En sökfunktion gör det möjligt för användaren att söka efter information om både filmer och personer baserat på ett fritextsökord.
+
+## Krav och Mål
+Projektet är designat för att uppfylla följande krav:
+- Använda TMDB API för att hämta och visa data.
+- Implementera separering av HTML, CSS och JavaScript enligt "rule of separation".
+- Tillhandahålla tydlig funktionalitet som gör det enkelt för användare att navigera och interagera med sidan.
+- Hantera fel, som nätverksproblem eller tomma sökresultat, med tydliga felmeddelanden.
+- Använda ett bibliotek (Bootstrap) för förbättrad design och responsivitet.
+
+## Teknologi och Metoder
+- **HTML och CSS:** För struktur och styling av sidan.
+- **JavaScript:** För att hämta och bearbeta data från TMDB API samt hantera användarinteraktioner.
+- **Bootstrap:** För att skapa en responsiv och visuellt tilltalande design genom dess inbyggda klasser och komponenter.
+- **TMDB API:** För att hämta data om filmer och personer.
+- **Event Listeners:** Används för att skapa interaktivitet, exempelvis vid knapptryckningar och sökningar.
+
+## Projektets Struktur
+- **HTML-filen:** Innehåller den grundläggande strukturen för applikationen och inkluderar Bootstrap via CDN.
+- **CSS-filen:** Definierar ytterligare stilregler som inte täcks av Bootstrap.
+- **JavaScript-filen:** Ansvarar för API-anrop, datavisning och all interaktivitet.
+
+## Utvecklingsanteckningar
+Detta projekt utvecklades som en del av en kurs och syftar till att demonstrera grundläggande programmeringsfärdigheter. 
+
+## Förslag på förbättringar
+- Lägg till stöd för paginering för att visa fler än 10 resultat åt gången.
+- Implementera en avancerad filtreringsfunktion för att förbättra sökupplevelsen.
+- Utforska ytterligare bibliotek för att lägga till avancerade funktioner eller förbättrad UI-design.
+
+## Sammanfattning
+Detta skolprojekt visar hur en förenklad version av en film- och persondatabas kan byggas med hjälp av moderna webbteknologier. Projektet är designat för att uppfylla specifika kurskrav och ge studenten möjlighet att lära sig viktiga tekniska färdigheter inom webbprogrammering.
+
+## Bootstrap-integration
+Bootstrap används i projektet för att:
+- Göra sidan responsiv och mobilanpassad.
+- Ge knappar, inputs och layoutelement ett mer professionellt utseende med minimalt arbete.
+- Underlätta snabb utveckling av layouten med inbyggda klasser som `container`, `row` och `col`. Bootstrap inkluderas via CDN-länk i HTML-filen.
+
